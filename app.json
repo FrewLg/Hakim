@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "hakim",
-    "slug": "hakim",
+    "name": "Hakim",
+    "description": "Hakim is an online personalized health assistance app.",
+    "slug": "Hakim",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +19,24 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.frewlg.Hakim"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "build": {
+        "development": {
+          "compiler": {
+            "minify": false,
+            "smooth": false
+          }
+        }
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2e503d28-a700-4dd1-ae3f-1c9d5f646e32"
+      }
     }
   }
 }
